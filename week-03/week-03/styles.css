@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #3b1f0a;   /* Kahve rengi */
+  --bg-color: #f5f0e8;        /* Krem arkaplan */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+body > * {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: "► ";
+    padding-left: 20px;
+}
